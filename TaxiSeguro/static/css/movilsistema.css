@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:0%;
+}
+body{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.principal{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+    .division{
+        float: left;
+        height: 5px;
+        width: 100%;
+        border-radius: 50px;
+        background: gray;
+        margin-top: 3.6%;
+    }
+
+    .menu{
+      margin-top: 1em;
+        float: left;
+        height: 100%;
+        width: 100%;
+        margin-right: 1em;
+        text-align: left;
+    }
+      nav{
+            float: left;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-size: 16px;
+        }
+            .nav ul{
+                list-style:none;
+            }
+                .nav2 > li {
+                  width: 330px;
+                }
+                    .nav2 li a {
+                        color: black;
+                        text-decoration:none;
+                        padding:15px 15px;
+                        display:block;
+                list-style:none;
+                    }
+                        .nav2 li a:hover {
+                            color: white;
+                            background-color: #e47c5d;
+                list-style:none;
+                        }
+
+                        .nav2 span{
+                            margin-right: 10%;
+                        }
+                    .nav2 li ul {
+                        display:none;
+                        position:absolute;
+                        background: #77B0C5
+                    }
+                        .nav2 li:hover > ul {
+                            display:block;
+                              width: 91%;
+                        }
+                    .nav2 li ul li {
+                        position:relative;
+                    }
+                        .nav2 li ul li ul {
+                        }
+        h2,h3,h4{
+            color: white;
+        }
+    .division2{
+        float: left;
+        height: 5px;
+        width: 100%;
+        border-radius: 50px;
+        background: gray;
+        margin-top: 3.6%;
+    }
+    .principalinfo{
+      margin-left: 1%;
+      margin-top: 1%;
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+
+        .principalinfo > h1{
+            font-size: 25px;
+            margin-top: .5em;
+            margin-bottom: 1em;
+            color: white;
+            padding-top: .25em;
+            padding-bottom: .25em;
+
+            border-radius: 50px;
+            background: black;
+        }
+        .principalinfo > img{
+            width: 80%;
+            height: 80%;
+        }
+        
+        .principalinfo .boton1{
+                width: 60%;
+                height: 35px;
+                margin-bottom: 5%;
+            }
+            .principalinfo span{
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            
+            .tabla2{
+                background-color: white;
+            }
+                .tabla2 .btn{
+                    float: left;
+                    width: 98%;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                }
+                .tabla2 td{
+                    width: 70%;
+                }
+            
+            .encabezadotabla{
+                background: #b0c4de;
+                background-color: white;
+            }
+            .descartar{
+                display: none;
+            }
+
+            .tabla22{
+                display: none;
+            }
+
+            .navprimero{
+                display: none;
+            }
+
+            .btnmenu{text-align: left;
+                width: 16%;
+                height: 50px;
+                font-size: 200%;
+
+            }
+            .btnmenu >span{
+                text-align: left;
+                margin-right: 25%;
+            }
+            .h2menu{
+                float: left;
+                margin-left: 25%;
+                margin-top: 2%;
+                color: white; margin-right: 30%;
+            }
+
+
+            #container {
+                margin: 0px auto;
+                width: 100%;
+                height: 100%;
+                border: 10px #333 solid;
+            }
+            #videoElement {
+                width: 50%;
+                height: 50%;
+                background-color: #666;
+            }
+            .boton{
+              text-align: center;
+
+            }
+            #captura{
+              display: block;
+              background-color: cornflowerblue;
+              color: #fff;
+              text-align: center;
+              text-decoration: none;
+            }
+
+
+

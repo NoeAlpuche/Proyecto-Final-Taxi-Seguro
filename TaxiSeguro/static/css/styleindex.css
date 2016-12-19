@@ -1,0 +1,161 @@
+
+@media screen and (min-width:801px) {
+  *{
+      margin: 0%;
+      padding: 0%;
+      border:0%;
+  }
+  body{
+      margin-left: 1em;
+      margin-right: 1em;
+      text-align: center;
+  }
+
+  .principal{
+      float: left;
+      height: 100%;
+      width: 100%;
+  }
+      .menu{
+          float: left;
+          height: 100%;
+          width: 100%;
+      }
+          nav{
+              float: left;
+              width: 100%;
+              height: 100%;
+              font-size: 16px;
+          }
+              .nav ul{
+                  list-style:none;
+                  margin-left: 5%;
+              }
+                  .nav2 > li {
+                      float:left;
+                      margin-left: 0px;
+                  }
+                      .nav2 li a {
+                          color: white;
+                          text-decoration:none;
+                          padding:15px 15px;
+                          display:block;
+                          width: 100%;
+                      }
+                          .nav2 li a:hover {
+                              color: white;
+                              background-color: #e47c5d;
+                          }
+
+                          .nav2 span{
+                              margin-right: 0px;
+                          }
+                      .nav2 li ul {
+                          display:none;
+                          position:absolute;
+                          background: #77B0C5
+                      }
+                          .nav2 li:hover > ul {
+                              display:block;
+                              margin-left: 0%;
+                          }
+                      .nav2 li ul li {
+                          position:relative;
+                      }
+                          .nav2 li ul li ul {
+                              right:-140px;
+                              top:0px;
+                          }
+
+      .division{
+          float: left;
+          height: 5px;
+          width: 100%;
+          border-radius: 50px;
+          background: gray;
+      }
+
+      .principalinfo{
+          float: left;
+          height: 100%;
+          width: 100%;
+      }
+          .principalinfo > h1{
+              font-size: 35px;
+              margin: 1em;
+              margin-bottom: 1em;
+              color: white;
+              padding-top: .15em;
+              padding-bottom: .15em;
+
+              border-radius: 50px;
+              background: black;
+          }
+          .principalinfo > p{
+              text-align: left;
+              font-size: 20px;
+              margin-left: 5em;
+              margin-right: 5em;
+          }
+
+          /* Contenedor del login */
+          #login {
+             border-radius: 8px;
+             margin-left: 32.5%;
+             margin-right: 32.5%;
+             margin-top: 8%;
+             max-width: 100;
+             padding-bottom: 1.5%;
+             padding-top: 1.5%;
+          }
+              /* Etiquetas del formulario */
+              .inicio {
+                 color: black;
+                 display: block;
+                 margin-bottom: 6px;
+                 text-align: center;
+                 font-size: 2.5em;
+                 margin-bottom: 12px;
+              }
+              .usuarioingresar {
+                 color: black;
+                 display: block;
+                 margin-bottom: 6px;
+                 font-size: 1em;
+              }
+              /* Campos del formulario */
+              input[type="text"],
+              input[type="password"] {
+                 border: none;
+                 border-radius: 6px;
+                 display: block;
+                 font-size: 1em;
+                 height: 2em;
+                 text-align: left;
+                 width: 80%;
+                 margin-left: auto;
+                 margin-right: auto;
+                 padding-left: 1%;
+              }
+              /* Botón */
+              input[type="submit"] {
+                 background-color: #A3A0A2;
+                 border: none;
+                 border-radius: 12px;
+                 color: white;
+                 display: block;
+                 font-size: 1em;
+                 height: 3em;
+                 margin-left: auto;
+                 margin-right: auto;
+                 margin-top: -5%;
+                 margin-bottom: 2.5%;
+                 text-align: center;
+                 width: 150px;
+              }
+              input[type="submit"]:hover {
+                 cursor: pointer;
+                 background-color: #A33D41;
+                 opacity: 0.8;
+            }
+}

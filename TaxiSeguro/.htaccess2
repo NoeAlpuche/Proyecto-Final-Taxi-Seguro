@@ -1,0 +1,12 @@
+
+
+	DirectoryIndex index.html index.php index.htm
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp|php)|~)$">
+    Order allow,deny
+    Satisfy All
+	Options All -Indexes
+	RewriteCond %{SCRIPT_FILENAME} -d [OR]
+	RewriteCond %{SCRIPT_FILENAME} -f
+	RewriteRule "(^|/)\." - [F]
+	RedirectMatch 404 /\..*$
+</FilesMatch>

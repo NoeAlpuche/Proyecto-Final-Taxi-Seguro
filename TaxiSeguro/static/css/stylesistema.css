@@ -1,0 +1,198 @@
+@media (min-width: 720px){
+    *{
+    margin: 0%;
+    padding: 0%;
+    border:0%;
+}
+
+body{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.principal{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+    .division{
+        float: left;
+        height: 5px;
+        width: 100%;
+        border-radius: 50px;
+        background: gray;
+        margin-top: 3.6%;
+    }
+
+    .menu{
+      margin-top: 1em;
+        float: left;
+        height: 585px;
+        width: 16%;
+        margin-right: .5em;
+        text-align: left;
+    }
+      nav{
+            float: left;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-size: 16px;
+        }
+            .nav ul{
+                list-style:none;
+            }
+                .nav2 > li {
+                  width: 100%;
+                }
+                    
+                    .nav2 li a {
+                        color: white;
+                        text-decoration:none;
+                        padding:15px 15px;
+                        display:block;
+                    }
+                        .nav2 li a:hover {
+                            color: white;
+                            background-color: #e47c5d;
+                        }
+
+                        .nav2 span{
+                            margin-right: 10%;
+                        }
+                    .nav2 li ul {
+                        display:none;
+                        position:absolute;
+                        background: #77B0C5
+                    }
+                        .nav2 li:hover > ul {
+                            display:block;
+                            width: 14.65%;
+                        }
+                    .nav2 li ul li {
+                        position:relative;
+                              width: 100%;
+                    }
+                        .nav2 li ul li ul {
+                        }
+
+        .menu{
+            color: white;
+        }
+    .division2{
+        float: left;
+        height: 500px;
+        width: .40%;
+        background: gray;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+    }
+    .principalinfo{
+      margin-left: 1em;
+      margin-top: 1em;
+        float: left;
+        height: 555px;
+        width: 81.1%;
+    }
+
+        .principalinfo > h1{
+            font-size: 40px;
+            margin: .5em;
+            margin-top: .5em;
+            margin-bottom: .5em;
+            color: white;
+            padding-top: .15em;
+            padding-bottom: .15em;
+
+            border-radius: 50px;
+            background: black;
+        }
+        .principalinfo > h2{
+            font-size: 35px;
+            margin: .15em;
+            margin-top: .15em;
+            margin-bottom: .15em;
+            color: white;
+            padding-top: .15em;
+            padding-bottom: .15em;
+
+            border-radius: 50px;
+        }
+
+        .principalinfo > img{
+            width: 440px;
+            height: 440px;
+        }
+
+
+        .principalinfo .boton1{
+                width: 20%;
+                height: 35px;
+                margin-bottom: 1%;
+            }
+            .principalinfo span{
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            
+            .tabla1{
+                margin-top: 1%;
+                background-color: white;
+            }
+                .tabla1 .btn{
+                    float: left;
+                    width: 48%;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                }
+                .tabla1 td{
+                    width: 16.6%;
+                }
+            
+            .encabezadotabla{
+                background: #b0c4de;
+                background-color: white;
+            }
+            .descartar{
+                display: none;
+            }
+
+            .tabla11{
+                display: none;
+            }
+
+            .navsegundo{
+                display: none;
+            }
+        
+
+
+
+            #container {
+                margin: 0px auto;
+                width: 500px;
+                height: 375px;
+                border: 10px #333 solid;
+            }
+            #videoElement {
+                width: 500px;
+                height: 375px;
+                background-color: #666;
+            }
+            .boton{
+              text-align: center;
+
+            }
+            #captura{
+              display: block;
+              margin:10px 0;
+              padding: 10px 20px;
+              background-color: cornflowerblue;
+              color: #fff;
+              text-align: center;
+              text-decoration: none;
+            }
+}
